@@ -1,0 +1,5 @@
+name: TorchToStick
+version: '${project.version}'
+main: com.ashkiano.torchtostick.TorchToStick
+api-version: '1.16'
+authors: [ AshKiano ]

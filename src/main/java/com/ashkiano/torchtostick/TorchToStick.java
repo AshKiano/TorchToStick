@@ -12,6 +12,7 @@ public class TorchToStick extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         getServer().getPluginManager().registerEvents(this, this);
+        Metrics metrics = new Metrics(this, 21259);
     }
 
     @EventHandler

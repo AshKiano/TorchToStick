@@ -13,6 +13,7 @@ public class TorchToStick extends JavaPlugin implements Listener {
     public void onEnable() {
         getServer().getPluginManager().registerEvents(this, this);
         Metrics metrics = new Metrics(this, 21259);
+        this.getLogger().info("Thank you for using the TorchToStick plugin! If you enjoy using this plugin, please consider making a donation to support the development. You can donate at: https://donate.ashkiano.com");
     }
 
     @EventHandler
